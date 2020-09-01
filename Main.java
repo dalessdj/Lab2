@@ -2,39 +2,39 @@ class Main {
   public static void main(String[] args) {
     System.out.println("M&M Color Counts");
 
-double total, blue, brown, green, orange, red, yellow, sum;
+double colorTotal, colorBlue, colorBrown, colorGreen, colorOrange, colorRed, colorYellow, colorSum;
 
-total = 55 * 10;
+colorTotal = 55 * 10;
 
-blue = total * .24;
+colorBlue = colorTotal * .24;
 
-brown = total * .13;
+colorBrown = colorTotal * .13;
 
-green = total * .16;
+colorGreen = colorTotal * .16;
 
-orange = total *.2;
+colorOrange = colorTotal *.2;
 
-red = total * .13;
+colorRed = colorTotal * .13;
 
-yellow = total *.14;
+colorYellow = colorTotal *.14;
 
-System.out.println("blue: " + blue);
-System.out.println("brown: " + brown);
-System.out.println("green: " + green);
-System.out.println("orange: " + orange);
-System.out.println("red: " + red);
-System.out.println("yellow: " + yellow);
+System.out.println("blue: " + colorBlue);
+System.out.println("brown: " + colorBrown);
+System.out.println("green: " + colorGreen);
+System.out.println("orange: " + colorOrange);
+System.out.println("red: " + colorRed);
+System.out.println("yellow: " + colorYellow);
 
-sum = blue + brown + green + orange + red + yellow;
+colorSum = colorBlue + colorBrown + colorGreen + colorOrange + colorRed + colorYellow;
 
-System.out.println("Sum: " + sum);
+System.out.println("Sum: " + colorSum);
 
-if(blue > brown && green > orange)System.out.println("Blue over Brown and Green over Orange");
+if(colorBlue > colorBrown && colorGreen > colorOrange)System.out.println("Blue over Brown and Green over Orange");
 
-if(brown <= red)
+if(colorBrown <= colorRed)
 System.out.println("Brown is less than or equal to Red");
 
-if(sum == total)
+if(colorSum == colorTotal)
 System.out.println("Numbers match");
 
  }
